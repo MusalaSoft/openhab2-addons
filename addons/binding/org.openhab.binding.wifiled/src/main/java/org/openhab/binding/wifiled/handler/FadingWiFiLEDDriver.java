@@ -301,7 +301,7 @@ public class FadingWiFiLEDDriver extends AbstractWiFiLEDDriver {
                     });
             ledfaderThread.init();
             final int period = fadeDurationInMs / totalFadingSteps;
-            final Future<?> future = faderExecutor.scheduleAtFixedRate(ledfaderThread, 0, period < 1 ? 1 : period, TimeUnit.MILLISECONDS);
+            final Future<?> future = faderExecutor.scheduleWithFixedDelay(ledfaderThread, 0, period < 1 ? 1 : period, TimeUnit.MILLISECONDS);
 
             // Wait untill LED Thread has finished, when so shutdown fader
             waiterExecutor.schedule(() -> {
