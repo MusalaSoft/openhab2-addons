@@ -8,8 +8,6 @@
  */
 package org.openhab.binding.pioneeravr.internal.protocol;
 
-import org.openhab.binding.pioneeravr.protocol.AvrCommand;
-
 /**
  * A simple command without parameters.
  *

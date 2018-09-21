@@ -6,9 +6,9 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.pioneeravr.protocol.event;
+package org.openhab.binding.pioneeravr.internal.protocol.event;
 
-import org.openhab.binding.pioneeravr.protocol.AvrConnection;
+import org.openhab.binding.pioneeravr.internal.protocol.AvrConnection;
 
 /**
  * The event fired when a status is received from the AVR.

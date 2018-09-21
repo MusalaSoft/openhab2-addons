@@ -9,9 +9,9 @@
 package org.openhab.binding.pioneeravr.internal.handler;
 
 import org.eclipse.smarthome.core.thing.Thing;
-import org.openhab.binding.pioneeravr.PioneerAvrBindingConstants;
+import org.openhab.binding.internal.pioneeravr.PioneerAvrBindingConstants;
+import org.openhab.binding.pioneeravr.internal.protocol.AvrConnection;
 import org.openhab.binding.pioneeravr.internal.protocol.serial.SerialAvrConnection;
-import org.openhab.binding.pioneeravr.protocol.AvrConnection;
 
 /**
  * An handler of an AVR connected through a serial port.

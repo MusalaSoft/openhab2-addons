@@ -6,11 +6,11 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.pioneeravr.protocol;
+package org.openhab.binding.pioneeravr.internal.protocol;
 
 import org.eclipse.smarthome.core.types.Command;
-import org.openhab.binding.pioneeravr.protocol.event.AvrDisconnectionListener;
-import org.openhab.binding.pioneeravr.protocol.event.AvrUpdateListener;
+import org.openhab.binding.pioneeravr.internal.protocol.event.AvrDisconnectionListener;
+import org.openhab.binding.pioneeravr.internal.protocol.event.AvrUpdateListener;
 
 /**
  * Represent a connection to a remote Pioneer AVR.

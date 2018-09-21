@@ -6,7 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.pioneeravr.protocol.event;
+package org.openhab.binding.pioneeravr.internal.protocol.event;
 
 /**
  * A listener which is notified when an AVR is disconnected.

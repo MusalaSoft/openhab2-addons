@@ -6,7 +6,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.pioneeravr;
+package org.openhab.binding.internal.pioneeravr;
 
 import java.util.Set;
 import java.util.regex.Pattern;
